@@ -9,16 +9,32 @@ html, body {
 }
 
 #box {
-    position:absolute;
-    background: url(rocket.png);
+    position:fixed;
+    background: url(rocketship.png);
     bottom:140px;
     left:20%;
-    width:64px;
-    height:139px;
+    width:130px;
+    height:205px;
 }
+
+
 
 #section {
 	background: #eee;
 	height: 300px;
 	margin: 20px;
+}
+
+
+.scrollup{
+	background: #00cc66;
+	padding: 15px 20px;
+	border-radius: 2px;
+	color: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.scrollup:hover {
+	background: #00aa55;
 }
