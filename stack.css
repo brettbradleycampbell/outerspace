@@ -6,19 +6,24 @@ html, body {
 #pane {
     position:relative;
     width:100%;
+    overflow: hidden;
 }
 
 #box {
     position:absolute;
-    background: url(rocket.png);
+    background: url(images/rocketship.png);
     bottom:140px;
-    left:20%;
-    width:64px;
-    height:139px;
+    left:23%;
+    width:130px;
+    height:205px;
+	-webkit-transition: all 1s ease-in-out;
 }
 
+
 #section {
-	background: #eee;
-	height: 300px;
-	margin: 20px;
+	height: 700px;
+	position: relative;
 }
+
+
+
